@@ -33,8 +33,33 @@
 }
 body {
     width: 100%;
-    height: 100%;
+    height: 200vh;
     background: url('https://i.postimg.cc/mrKVNK2M/kkjh.jpg');
+}
+h2 {
+    color: rgba(1, 0, 102, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+h2 {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+.col img {
+    transition: 0.25s !important;
+    transition-duration: 0.25s !important;
+    transition-timing-function: ease !important;
+    transition-delay: 0s !important;
+    transition-property: all !important;
+}
+p {
+    text-align: justify;
 }
 .footer {
     display: block;
@@ -51,3 +76,4 @@ body {
     font-size: 13px;
     border: 1px solid rgba(225, 225, 225, 0.15);
 }
+/* about styling */
